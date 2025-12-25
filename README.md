@@ -58,9 +58,7 @@ weather-analysis/
     ├── seasonal.png
     └── yearly.png
 
-           
-
-```md
+```
 ## 🖼 Weather Project Screenshots
 
 ### Correlation Analysis
