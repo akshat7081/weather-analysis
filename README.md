@@ -42,10 +42,35 @@ This project performs a comprehensive descriptive analysis of historical weather
 ```text
 weather-analysis/
 │
-├── analysis.py          # Main Python script
-├── weather_data.csv     # Dataset (Input)
-├── requirements.txt     # Dependencies
-└── README.md            # Project Documentation
+├── analysis.py        
+├── weather_data.csv     
+├── requirements.txt    
+└── README.md 
+images/
+├── correlation.png
+├── monthly.png
+├── precipitation.png
+├── seasonal.png
+└── yearly.png
+           
+
+## 🖼 Weather Project Screenshots
+
+### Correlation Analysis
+![Correlation](images/correlation.png)
+
+### Monthly Data
+![Monthly](images/monthly.png)
+
+### Precipitation Data
+![Precipitation](images/precipitation.png)
+
+### Seasonal Data
+![Seasonal](images/seasonal.png)
+
+### Yearly Data
+![Yearly](images/yearly.png)
+
 
 🚀 How to Run
 1. Install Dependencies: 
