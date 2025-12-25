@@ -2,75 +2,74 @@
 
 **Project by:** Akshat Tripathi (Roll: 04914202023)
 
+---
+
 ## 📌 Project Overview
+
 This project performs a comprehensive descriptive analysis of historical weather data to identify climate trends, seasonal variations, and extreme weather events. Using Python, Pandas, and Seaborn, the system processes raw meteorological data to generate actionable insights for regional planning.
 
 ---
 
 ## 🛠️ Tech Stack
-- **Language:** Python
-- **Data Manipulation:** Pandas, NumPy
-- **Visualization:** Matplotlib, Seaborn
-- **Input Data:** CSV format (Time-series weather data)
+
+- **Language:** Python  
+- **Data Manipulation:** Pandas, NumPy  
+- **Visualization:** Matplotlib, Seaborn  
+- **Input Data:** CSV format (Time-series weather data)  
 
 ---
 
 ## 📊 Key Analyses Performed
 
 ### 1. Data Preprocessing
-- Date normalization and time-zone handling.
-- Missing value imputation using forward-fill methods.
+- Date normalization and time-zone handling.  
+- Missing value imputation using forward-fill methods.  
 - Extraction of Month/Year features for time-series aggregation.
 
 ### 2. Statistical Analysis
-- **Descriptive Statistics:** Calculation of Mean, Median, and Standard Deviation for Temperature, Humidity, and Pressure.
+- **Descriptive Statistics:** Calculation of Mean, Median, and Standard Deviation for Temperature, Humidity, and Pressure.  
 - **Correlation Analysis:** Heatmap generation to understand relationships between weather variables.
 
 ### 3. Visualization Modules
-- **Monthly/Yearly Trends:** Line graphs tracking temperature changes over time.
-- **Seasonal Variations:** Box plots showing temperature distribution across months.
-- **Precipitation Analysis:** Bar charts displaying frequency of rain/snow events.
+- **Monthly/Yearly Trends:** Line graphs tracking temperature changes over time.  
+- **Seasonal Variations:** Box plots showing temperature distribution across months.  
+- **Precipitation Analysis:** Bar charts displaying frequency of rain/snow events.  
 - **Correlation Matrix:** Heatmap visualizing variable dependencies.
 
 ### 4. Extreme Event Detection
-- Identification of **Heatwaves** (Top 5% temperature).
+- Identification of **Heatwaves** (Top 5% temperature).  
 - Identification of **Low-Pressure Systems** (Bottom 5% pressure).
 
 ---
 
 ## 📂 Project Structure
+
 ```text
 weather-analysis/
 │
-├── analysis.py        
-├── weather_data.csv     
-├── requirements.txt    
-└── README.md 
-images/
-├── correlation.png
-├── monthly.png
-├── precipitation.png
-├── seasonal.png
-└── yearly.png
+├── analysis.py
+├── weather_data.csv
+├── requirements.txt
+├── README.md
+└── images/
+    ├── correlation.png
+    ├── monthly.png
+    ├── precipitation.png
+    ├── seasonal.png
+    └── yearly.png
+
            
 
-## 🖼 Weather Project Screenshots
+🖼 Weather Project Screenshots
+Correlation Analysis
 
-### Correlation Analysis
-![Correlation](images/correlation.png)
+Monthly Data
 
-### Monthly Data
-![Monthly](images/monthly.png)
+Precipitation Data
 
-### Precipitation Data
-![Precipitation](images/precipitation.png)
+Seasonal Data
 
-### Seasonal Data
-![Seasonal](images/seasonal.png)
-
-### Yearly Data
-![Yearly](images/yearly.png)
-
+Yearly Data
 
 🚀 How to Run
 1. Install Dependencies: 
