@@ -60,16 +60,23 @@ weather-analysis/
 
            
 
-🖼 Weather Project Screenshots
-Correlation Analysis
+```md
+## 🖼 Weather Project Screenshots
 
-Monthly Data
+### Correlation Analysis
+![Correlation](./images/correlation.png)
 
-Precipitation Data
+### Monthly Data
+![Monthly](./images/monthly.png)
 
-Seasonal Data
+### Precipitation Data
+![Precipitation](./images/precipitation.png)
 
-Yearly Data
+### Seasonal Data
+![Seasonal](./images/seasonal.png)
+
+### Yearly Data
+![Yearly](./images/yearly.png)
 
 🚀 How to Run
 1. Install Dependencies: 
